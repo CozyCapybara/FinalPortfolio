@@ -9,15 +9,15 @@ export function NavbarItem() {
 
 
     return (
-      <Navbar collapseOnSelect expand="sm" bg="transparent" variant="light">
+      <Navbar  collapseOnSelect expand="sm" bg="transparent" variant ="light">
         <Container fluid>
-          <Navbar.Brand href="/Home">CozyCapybara</Navbar.Brand>
+          <Navbar.Brand href="/">CozyCapybara</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Nav.Link href="/Home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href='/About'>About Me</Nav.Link>
               <NavDropdown align="end" title="Projects" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="/ResponsiveRedesign">Responsive Redesign</NavDropdown.Item>

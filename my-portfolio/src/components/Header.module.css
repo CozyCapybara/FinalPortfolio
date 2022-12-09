@@ -1,8 +1,9 @@
 .flexWrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
-  justify-content: space-around;
+  margin-top: 50px;
+  justify-content: center ;
+  column-gap: 100px;
 }
 
 .captionContainer {
@@ -17,17 +18,18 @@
 .captionText {
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 300;
-  font-size: 2.6vw;
+  font-weight: 400;
+  font-size: 50px;
   line-height: auto;
   text-align: center;
 }
 
-img {
+.picture {
   border-radius: 50%;
-  max-width: 500px;
+  max-height: 400px;
   object-fit: cover;
   aspect-ratio: 1 / 1;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 

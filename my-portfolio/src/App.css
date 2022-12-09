@@ -1,9 +1,12 @@
+/*#FFE1F8*/
+
 .App {
   text-align: center;
   background-color: #FFE1F8;
+  font-family: Raleway;
 }
 
-:root {
+#root {
   background-color: #FFE1F8;
 }
 

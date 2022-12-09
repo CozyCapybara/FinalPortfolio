@@ -7,8 +7,9 @@ import {About} from './pages/About';
 import {ResponsiveRedesign} from './pages/ResponsiveRedesign';
 import {IterativeDesign} from './pages/IterativeDesign';
 import {ABTesting} from './pages/ABTesting';
-import { Header } from './components/Header'
+import {Development} from './pages/Development'
 
+ 
 
 
 function App() {
@@ -16,20 +17,18 @@ function App() {
     <div id='root'>
       <div className="App">
         <NavbarItem />
-        <Header />
+      
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/ResponsiveRedesign" element={<ResponsiveRedesign />} />
+          <Route path="/IterativeDesign" element={<IterativeDesign />} />
+          <Route path="/ABTesting" element={<ABTesting/>} />
+          <Route path="/Development" element={<Development/>} />
+        </Routes>
+
       </div>
-
-
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/ResponsiveRedesign" element={<ResponsiveRedesign />} />
-        <Route path="/IterativeDesign" element={<IterativeDesign />} />
-        <Route path="/ABTesting" element={<ABTesting/>} />
-      </Routes>
-
-
       
 
     </div>

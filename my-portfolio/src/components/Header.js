@@ -3,10 +3,10 @@ import styles from './Header.module.css';
 
 export function Header(){
   return(
-    <div id='root'>
+    <div id='header'>
       <div className={styles.flexWrapper}>
-        <div className={styles.picture}>
-          <img src='https://www.arsenal.com/sites/default/files/styles/large/public/images/D51_9405_22480721-7dff-446d-a80f-d2566da69af1.JPG?itok=e65-8yVc'></img>
+        <div>
+          <img className={styles.picture} src='https://gvzoo.com/cms-data/gallery/blog/animals/capybara/capybara-library.jpg'></img>
         </div>
 
         <div className={styles.captionContainer}>
